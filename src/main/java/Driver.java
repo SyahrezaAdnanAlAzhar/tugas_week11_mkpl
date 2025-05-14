@@ -4,19 +4,19 @@ public class Driver {
 
 	public static void main(String[] args) {
 		
-		Counter counter = new Counter();
+		Counter c = new Counter();
 		
-		System.out.println("Count aWAL:" + counter.getCount());
+		System.out.println("Hitung :" + c.getCount());
 		
-		counter.increment();
-                counter.increment();
+		c.increment();
+        c.increment();
 		
-		System.out.println("Count:" + counter.getCount());
+		System.out.println("Hitung :" + c.getCount());
 		
-		counter.decrement();
-                counter.decrement();
+		c.decrement();
+        c.decrement();
 		
-		System.out.println("Count BARU BANGET:" + counter.getCount());
+		System.out.println("Hitung :" + c.getCount());
 		
 	}
 
